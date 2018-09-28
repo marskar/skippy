@@ -1,3 +1,4 @@
+from sklearn.metrics import confusion_matrix, accuracy_score
 from split_data import split_data
 from predict import predict
 
