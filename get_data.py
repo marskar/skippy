@@ -12,9 +12,4 @@ def get_data() -> Tuple:
 
     target = digits[column_names[1]]
 
-    def writefile(object, filename: str) -> None:
-        object.tofile(filename, sep=',')
-
-    writefile(, )
-
     return data, target
