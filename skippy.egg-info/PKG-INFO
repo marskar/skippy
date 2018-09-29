@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: skippy
-Version: 0.0.2
-Summary: Simplified analyses of sklearn datasets
+Version: 0.0.3
+Summary: Simplified analysis of sklearn datasets
 Home-page: https://github.com/marskar/skippy
 Author: Martin Skarzynski
 Author-email: marskar@gmail.com
