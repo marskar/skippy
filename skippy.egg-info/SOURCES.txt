@@ -1,6 +1,7 @@
 README.md
 setup.py
 skippy/__init__.py
+skippy/classification.py
 skippy/get_data.py
 skippy/get_model.py
 skippy/pickle_model.py

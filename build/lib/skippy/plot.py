@@ -3,8 +3,8 @@ import seaborn as sns
 
 
 def plot_cm(cm,
-            filename='confusion_matrix.images',
-            acc=None) -> None:
+            acc=None,
+            filename='confusion_matrix.png') -> None:
     sns.heatmap(cm, square=True, annot=True, cbar=False)
 
     plt.xlabel('Predicted Value')
