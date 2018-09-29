@@ -17,7 +17,7 @@ def confusion_matrix_plot(cm,
 
 def residual_plot(fitted, target,
                   mse=None, r2=None,
-                  filename='residuals_plot.png') -> None:
+                  filename='residual_plot.png') -> None:
     sns.residplot(fitted, target, lowess=True, line_kws={'color': 'red'})
     plt.xlabel('Fitted Values')
     plt.ylabel('Residuals')
