@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mnist-analysis",
+    name="skippy",
     version="0.0.1",
     author="Martin Skarzynski",
     author_email="marskar@gmail.com",
-    description="A simple analysis of mnist digit dataset",
+    description="Simple analyses of sklearn datasets",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/marskar/mnist",
+    url="https://github.com/marskar/skippy",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

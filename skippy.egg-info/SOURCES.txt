@@ -1,0 +1,12 @@
+README.md
+setup.py
+skippy/__init__.py
+skippy/get_data.py
+skippy/get_model.py
+skippy/pickle_model.py
+skippy/plot.py
+skippy/split_data.py
+skippy.egg-info/PKG-INFO
+skippy.egg-info/SOURCES.txt
+skippy.egg-info/dependency_links.txt
+skippy.egg-info/top_level.txt

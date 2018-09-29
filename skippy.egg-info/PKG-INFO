@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: skippy
+Version: 0.0.1
+Summary: Simple analyses of sklearn datasets
+Home-page: https://github.com/marskar/skippy
+Author: Martin Skarzynski
+Author-email: marskar@gmail.com
+License: UNKNOWN
+Description: # The `skippy` python package
+        
+        Skip the boilerplate of scikit-learn machine learning examples.
+        
+        Abstracting away most of the code to focus on one step per line.
+        
+        Look in the `pipelines` folder of the
+        [skippy repo](https://github.com/marskar/skippy)
+        for example pipelines.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
