@@ -24,12 +24,12 @@ def main():
                   model_name=args.name,
                   )
 
-    if args.data in ('digits', 'iris', 'wine'):
+    if args.data in ('digits', 'iris', 'wine', 'breast_cancer'):
         classification(**kwargs)
     elif args.data in ('boston', 'diabetes'):
         regression(**kwargs)
     else:
-        print("The dataset name must be digits, iris, wine, boston, or diabetes.")
+        print("The dataset name must be digits, iris, wine, boston, breast_cancer, or diabetes.")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: skippy
-Version: 0.0.8
+Version: 0.1.0
 Summary: Simplified analysis of sklearn datasets
 Home-page: https://github.com/marskar/skippy
 Author: Martin Skarzynski
@@ -15,7 +15,51 @@ Description: # The `skippy` python package
         pip install skippy
         ```
         
-        # Usage
+        ## Usage
+        
+        In a shell environment, you can run `skippy`
+        with no arguments to perform a Logistic Regression
+        on the `digits` dataset.
+        
+        This will produce a 10 x 10 confusion matrix
+        with the Accuracy Score at the top.
+        
+        You can also pass arguments to skippy at the command line.
+        
+        For example, 
+        ```bash
+        skippy -data diabetes -type linear_model -name Lasso
+        # Or
+        skippy -d diabetes -t linear_model -n Lasso
+        ```
+        will run a linear regression with lasso regularization (L1)
+        on the `diabetes` dataset.
+        
+        The `data` argument can be any of
+        the following built-in scikit-learn datasets:
+        - Regression
+            - `boston`
+            - `diabetes`
+        - Classification
+            - `digits`
+            - `iris`
+            - `wine`
+            - `breast_cancer`
+        
+        The `type` and `name` arguments are
+        referring to the model type and name from scikit-learn.
+        The `type` is the submodule, e.g. 
+        - `linear_model`
+        - `naive_bayes`
+        - `ensemble`
+        - `svm`
+        
+        while the `name` is the what is actually imported, e.g.
+        - `LinearRegression`
+        - `GaussianNB`
+        - `RandomForestRegressor`
+        - `SVC`
+        
         Simplify code to a single function call per step:
         ```python
         from sklearn.metrics import confusion_matrix, accuracy_score

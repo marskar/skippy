@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="skippy",
-    version="0.0.8",
+    version="0.1.0",
     author="Martin Skarzynski",
     author_email="marskar@gmail.com",
     description="Simplified analysis of sklearn datasets",
@@ -22,5 +22,10 @@ setuptools.setup(
         'console_scripts': [
             'skippy = skippy.__main__:main'
         ]
-    }
+    },
+    install_requires=[
+        'scikit-learn',
+        'matplotlib',
+        'seaborn'
+    ]
 )

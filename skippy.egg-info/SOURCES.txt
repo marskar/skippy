@@ -13,4 +13,5 @@ skippy.egg-info/PKG-INFO
 skippy.egg-info/SOURCES.txt
 skippy.egg-info/dependency_links.txt
 skippy.egg-info/entry_points.txt
+skippy.egg-info/requires.txt
 skippy.egg-info/top_level.txt
