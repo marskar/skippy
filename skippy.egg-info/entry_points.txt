@@ -1,0 +1,3 @@
+[console_scripts]
+skippy = skippy.__main__:main
+

@@ -2,24 +2,16 @@ import skippy as skp
 
 skp.classification(dataset='digits',
                    model_type='linear_model',
-                   model_name='LogisticRegression',
-                   pickle_name='digits_logistic_regression.pickle',
-                   plot_name='digits_logistic_regression.png')
+                   model_name='LogisticRegression')
 
 skp.classification(dataset='digits',
                    model_type='ensemble',
-                   model_name='RandomForestClassifier',
-                   pickle_name='digits_random_forest.pickle',
-                   plot_name='digits_random_forest.png')
+                   model_name='RandomForestClassifier')
 
 skp.classification(dataset='digits',
                    model_type='naive_bayes',
-                   model_name='GaussianNB',
-                   pickle_name='digits_naive_bayes.pickle',
-                   plot_name='digits_naive_bayes.png')
+                   model_name='GaussianNB')
 
 skp.classification(dataset='digits',
                    model_type='neighbors',
-                   model_name='KNeighborsClassifier',
-                   pickle_name='digits_knearest_neighbors.pickle',
-                   plot_name='digits_knearest_neighbors.png')
+                   model_name='KNeighborsClassifier')
